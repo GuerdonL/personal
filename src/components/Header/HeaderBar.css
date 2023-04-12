@@ -1,0 +1,14 @@
+/* HeaderBar.css */
+.headerBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #4e4e4e;
+  z-index: 1;
+  transition: height 0.3s, padding 0.3s;
+}
+
+.headerBar.shrinking {
+  height: 5 rem;
+}

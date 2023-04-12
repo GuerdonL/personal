@@ -1,0 +1,26 @@
+component:
+  name: ComponentName
+  props:
+    propName: propType
+    anotherPropName: anotherPropType
+  state:
+    stateName: stateType
+    anotherStateName: anotherStateType
+  lifecycleMethods:
+    - componentDidMount
+    - componentDidUpdate
+  methods:
+    - methodName:
+        arguments:
+          - argName: argType
+        returnType: returnType
+  children:
+    - childComponent:
+        name: ChildComponentName
+        props:
+          childPropName: childPropType
+        children: []
+  styles:
+    className:
+      property: value
+      anotherProperty: anotherValue

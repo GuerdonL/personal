@@ -1,0 +1,8 @@
+/* AnimatedTitle.css */
+.animatedTitle {
+    font-size: /* desiredSize */;
+    font-weight: bold;
+    color: /* desiredColor */;
+    animation: /* desiredAnimation */;
+  }
+  
