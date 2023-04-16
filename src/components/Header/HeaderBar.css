@@ -1,5 +1,6 @@
 /* HeaderBar.css */
 .headerBar {
+  grid-area: header;
   position: fixed;
   top: 0;
   left: 0;

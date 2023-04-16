@@ -8,11 +8,11 @@ import './App.css';
 const App: React.FC = () => {
   return (
     <div className="App">
-      <HeaderBar />
-      <main className="mainContent">
+      <div className="pageWrapper">
+        <HeaderBar />
         {/* <Welcome /> */}
         <Resume />
-      </main>
+      </div>
     </div>
   );
 };

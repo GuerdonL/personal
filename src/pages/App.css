@@ -6,10 +6,8 @@
   min-height: 100vh;
 }
 
-.mainContent {
-  flex-grow: 1;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  padding: 0 16px;
+.pageWrapper {
+  display: grid;
+  grid-template-columns: minmax(10%, 1fr) minmax(auto, 1000px) minmax(10%, 1fr);
+  grid-template-areas: "header header header" ". resume .";
 }

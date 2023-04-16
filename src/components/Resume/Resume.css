@@ -1,8 +1,8 @@
 /* Resume.css */
 .resume {
-  width: 100%;
-  max-width: 800px;
+  grid-area: resume;
+  margin-top: 80px; /* adjust this value to avoid overlapping with the header bar */
   border-radius: 10px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-  /* margin: 0 auto; */
+  padding: 20px
 }
