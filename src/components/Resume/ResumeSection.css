@@ -1,0 +1,30 @@
+/* ResumeSection.css */
+.resumeSection {
+    margin-bottom: 10px/* desiredMargin */;
+}
+  
+.sectionTitle {
+    cursor: pointer;
+}
+
+.sectionContent > * {
+    margin-bottom: 16px/* desiredMargin */;
+}
+
+.sectionContent > *:last-child {
+    margin-bottom: 0;
+}
+
+.sectionContent.hidden {
+    display: none;
+}
+  
+.expandIndicator {
+    margin-left: 10px/* desiredMargin */;
+    transition: transform 0.3s;
+}
+  
+.expandIndicator.expanded {
+    transform: rotate(180deg);
+}
+ 

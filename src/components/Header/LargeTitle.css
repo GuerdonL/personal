@@ -1,8 +1,11 @@
-/* AnimatedTitle.css */
-.animatedTitle {
-    font-size: /* desiredSize */;
-    font-weight: bold;
-    color: /* desiredColor */;
-    animation: /* desiredAnimation */;
-  }
-  
+/* LargeTitle.css */
+.largeTitle {
+  font-size: large;
+  font-weight: bold;
+  margin-left: 10rem;
+  display: inline-block;
+}
+
+.largeTitle.hidden {
+  display: none;
+}

@@ -47,9 +47,11 @@ class HeaderBar extends Component<HeaderBarProps, HeaderBarState> {
     return (
       <div className={`headerBar ${this.state.isShrinking ? 'shrinking' : ''}`} style={{ height: this.state.headerHeight }}>
         <LargeTitle visible={!this.state.isShrinking} />
-        <NavLink iconName="github" linkText="GitHub" url="https://github.com/GuerdonL" />
-        <NavLink iconName="linkedin" linkText="LinkedIn" url="https://www.linkedin.com/in/guerdonligon" />
+        <div className="navLinks">
+          <NavLink iconName="github" linkText="GitHub" url="https://github.com/GuerdonL" />
+          <NavLink iconName="linkedin" linkText="LinkedIn" url="https://www.linkedin.com/in/guerdonligon" />
         {/* Add more NavLink components as needed */}
+        </div>
       </div>
     );
   }

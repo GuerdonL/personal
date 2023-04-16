@@ -1,0 +1,17 @@
+/* EducationItem.css */
+.educationItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start
+}
+.institutionContainer {
+  display: flex;
+  flex-direction: column;
+}
+.institution {
+  font-weight: bold;
+}
+  
+.degree {
+  font-weight: normal;
+}

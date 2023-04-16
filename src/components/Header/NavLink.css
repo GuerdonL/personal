@@ -1,1 +1,10 @@
 /* NavLink.css */
+.navLink {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #916e6e;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  

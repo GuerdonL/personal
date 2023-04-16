@@ -1,11 +1,15 @@
-// AnimatedTitle.tsx
+// LargeTitle.tsx
 import React from 'react';
 import './LargeTitle.css';
 
-interface AnimatedTitleProps {}
+interface LargeTitleProps {
+  visible: boolean;
+}
 
-const AnimatedTitle: React.FC<AnimatedTitleProps> = () => {
-  return <h1 className="animatedTitle">Guerdon Ligon</h1>;
+const LargeTitle: React.FC<LargeTitleProps> = ({ visible }) => {
+  return (
+    <h1 className={`largeTitle ${visible ? '' : 'hidden'}`}>Guerdon Ligon</h1>
+  );
 };
 
-export default AnimatedTitle;
+export default LargeTitle;
